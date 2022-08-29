@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Country Details</title>
+    <style>
+        #header{
+            text-align: center;
+        }
+        #main-sec{
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 10px;
+        }
+        #cards-sec{
+            grid-column: 1/9;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        #aside-sec{
+            grid-column: 9/-1;
+            background: linear-gradient(96deg, rgba(131,58,180,1) 0%, rgba(120,27,27,1) 100%);
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .cards{
+            background: linear-gradient(96deg, rgba(131,58,180,1) 0%, rgba(26,61,164,1) 68%);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        #country-details{
+            position: fixed;
+        }
+        .btn-detail{
+            background-color: gray;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <header id="header">
+        <h1>Get Your Country Details</h1>
+    </header>
+    <main id="main-sec">
+        <section id="cards-sec">
+            <!-- <div class="cards">
+                <h4>Name:</h4>
+                <h6>Code:</h6>
+                <button>Details</button>
+            </div> -->
+
+        </section>
+        <section id="aside-sec">
+            <div id="country-details">
+                <!-- <h3>Country Name</h3>
+                <img src="" alt="flag">
+                <p>Country Code</p>
+                <p>Capital:</p>
+                <p>Region:</p>
+                <p>Languague</p>
+                <p>Currency</p> -->
+            </div>
+        </section>
+    </main>
+
+    <script src="./JS/details.js"></script>
+</body>
+</html>
